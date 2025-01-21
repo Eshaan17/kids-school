@@ -1,0 +1,220 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.open-sans-font {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* Shared styles */
+.width{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.none{
+    list-style: none;
+    text-decoration: none;
+}
+/* button  */
+.btn1{
+    /* Frame 3 */
+position: static;
+width: 197px;
+height: 50px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10;
+padding: 10px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 24px 0px;
+border-radius: 12px;
+
+/* Black */
+background: rgb(17, 17, 17);
+color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 1.25rem;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.navbtn{
+    /* Frame 2 */
+position: static;
+width: 197px;
+height: 50px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10px;
+padding: 10px;
+border-radius: 12px;
+border: none;
+
+/* Orange */
+background: rgb(254, 163, 1);
+
+/* Inside Auto Layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 0px 186px;
+color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 1.25rem;
+font-weight: 600;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+}
+.brand-font{
+    color: rgb(17, 17, 17);
+font-family: Quicksand;
+font-size: 2rem;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.brand{
+    display: flex;
+    align-items:center ;
+    gap: 11px;
+}
+
+/* navbar  */
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.home{
+    /* Home */
+    rgb(254, 163, 1)
+position: static;
+width: 58px;
+height: 30px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+gap: 32px;
+padding: 0px;
+color: rgb(254, 163, 1);
+font-family: Quicksand;
+font-size: 1.25rem;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 32px;
+}
+.about{
+    color: rgb(1, 172, 253);
+font-family: Quicksand;
+font-size: 1.25rem;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+/* About */
+position: static;
+width: 57px;
+height: 30px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+gap: 32;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 32px;
+}
+.facilities{
+    /* Facilities */
+position: static;
+width: 80px;
+height: 30px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+gap: 32;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 0px 32px;
+color: rgb(5, 212, 223);
+font-family: Quicksand;
+font-size: 1.25rem;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.admission{
+    /* Admission */
+position: static;
+width: 96px;
+height: 30px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+gap: 32;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+margin: 0px 32px;
+color: rgb(93, 88, 239);
+font-family: Quicksand;
+font-size: 1.25rem;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.nav-links{
+    display: flex;
+}
