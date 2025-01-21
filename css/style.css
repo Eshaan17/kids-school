@@ -169,12 +169,14 @@ body{
     justify-content: center;
     align-items: center;
 }
-.section1-header{
-    text-align: center;
-    font-weight: 800;
-    font-size: 2rem;
-    
-
+.card-header{
+    color: rgb(0, 0, 0);
+font-family: Quicksand;
+font-size: 3rem;
+font-weight: 700;
+line-height: 57.5px;
+letter-spacing: 0%;
+text-align: center;
 }
 .cards{
     margin: 10px auto;
@@ -228,21 +230,26 @@ border: none;
     background-color: white;
 }
 .section-2{
-    
     border: 1px solid rgb(255, 255, 255);
-    background-color: #fdeccf
+    background-image: linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%),url(../assets/bg.png);
+    margin-top: 60px ;
 }
 .section2-container{
-    
     gap: 20px;
     width: 80%;
     margin: 60px auto;
 }
-.section2-title{
-
+.story-heading{
+    color: rgb(0, 0, 0);
+font-family: Quicksand;
+font-size: 46px;
+font-weight: 700;
+line-height: 57.5px;
+letter-spacing: 0%;
+text-align: center;
     text-align: center;
     font-weight: 800;
-    font-size: 2rem;
+    font-size: 3rem;
     margin: 60px auto;
 }
 
@@ -289,6 +296,8 @@ border: none;
     width: 197px;
     height: 50px;
     display: block;
+    margin-top: 90px;
+    margin-bottom: 70px;
     margin: 0 auto;
     border: none;
     background-color: black;
@@ -362,3 +371,59 @@ border: none;
     width: 100%;
 }
 
+/* footer section */
+.footer-bg{
+    background-color: #01ACFD;
+}
+
+.footer-container{
+    /* border: 1px solid black; */
+    color: white;
+    justify-content: space-between;
+    gap: 30px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+.footer-btn{
+    /* border: 1px solid black; */
+    padding-left: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.footer-items{
+    text-align: left;
+    margin-bottom: 15px;
+}
+.footer-2{
+    /* border: 1px solid black; */
+}
+.footer-1{
+    /* border: 1px solid black; */
+    width: 40%;
+    
+}
+.footer-top{
+    width: 20%;
+    
+}
+.footer1-logo{
+    height: 60px;
+    margin: 0 0;
+}
+.footer1-title{
+    margin: 8px 0;
+    margin-left: 10px;
+    font-size: 1.75rem;
+    line-height: 26px;
+}
+.footer1-sub{
+    font-size: 1.25rem;
+    margin-right: 0px;
+    padding-right: 0px;
+    
+}
+.footer-icons{
+    display: flex;
+    gap: 10px;
+}
