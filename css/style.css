@@ -325,7 +325,9 @@ body {
     border-top-right-radius: 20px;
 
 }
-
+.banner-img{
+    width: 30%;
+}
 .banner {
     border-radius: 20px;
 }
@@ -403,6 +405,7 @@ body {
 .side-cardbtn1 {
     text-decoration: none;
     text-align: center;
+    align-items: center;
     position: relative;
     display: block;
     bottom: 0;
@@ -422,6 +425,7 @@ body {
 
 .side-cardbtn2 {
     text-decoration: none;
+    align-items: center;
     text-align: center;
     position: relative;
     display: block;
