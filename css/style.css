@@ -533,7 +533,9 @@ body {
     .navbtn {
         display: none;
     }
-
+    .hide{
+        display: none;
+    }
     .header-title {
         font-size: 600;
         font-size: 3rem;
