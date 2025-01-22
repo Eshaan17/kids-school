@@ -7,7 +7,7 @@ body {
     padding: 0;
     margin: 0 auto;
 }
-         /* fornts */
+         /* fonts */
 .open-sans-quicksand {
     font-family: "Quicksand", serif;
     font-optical-sizing: auto;
@@ -18,10 +18,8 @@ body {
 .open-sans-raleway {
     font-family: "Open Sans", serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
     font-style: normal;
-    font-variation-settings:
-        "wdth" 100;
+    font-weight: 400;
 }
 
 /* shared-style  */
@@ -471,8 +469,6 @@ body {
     text-align: left;
     margin-bottom: 15px;
 }
-
-.footer-2 {}
 
 .footer-1 {
     width: 40%;
